@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		867443A31CB3076B00CB1B33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867443A21CB3076B00CB1B33 /* AppDelegate.swift */; };
 		867443A61CB3076B00CB1B33 /* In_The_Last_24.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 867443A41CB3076B00CB1B33 /* In_The_Last_24.xcdatamodeld */; };
-		867443A81CB3076B00CB1B33 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867443A71CB3076B00CB1B33 /* MasterViewController.swift */; };
-		867443AA1CB3076B00CB1B33 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867443A91CB3076B00CB1B33 /* DetailViewController.swift */; };
+		867443A81CB3076B00CB1B33 /* TaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867443A71CB3076B00CB1B33 /* TaskTableViewController.swift */; };
+		867443AA1CB3076B00CB1B33 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867443A91CB3076B00CB1B33 /* TaskViewController.swift */; };
 		867443AD1CB3076B00CB1B33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 867443AB1CB3076B00CB1B33 /* Main.storyboard */; };
 		867443AF1CB3076B00CB1B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867443AE1CB3076B00CB1B33 /* Assets.xcassets */; };
 		867443B21CB3076B00CB1B33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 867443B01CB3076B00CB1B33 /* LaunchScreen.storyboard */; };
@@ -20,8 +20,8 @@
 		8674439F1CB3076B00CB1B33 /* In The Last 24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "In The Last 24.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		867443A21CB3076B00CB1B33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		867443A51CB3076B00CB1B33 /* In_The_Last_24.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = In_The_Last_24.xcdatamodel; sourceTree = "<group>"; };
-		867443A71CB3076B00CB1B33 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		867443A91CB3076B00CB1B33 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		867443A71CB3076B00CB1B33 /* TaskTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewController.swift; sourceTree = "<group>"; };
+		867443A91CB3076B00CB1B33 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 		867443AC1CB3076B00CB1B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		867443AE1CB3076B00CB1B33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		867443B11CB3076B00CB1B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,8 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				867443A21CB3076B00CB1B33 /* AppDelegate.swift */,
-				867443A71CB3076B00CB1B33 /* MasterViewController.swift */,
-				867443A91CB3076B00CB1B33 /* DetailViewController.swift */,
+				867443A71CB3076B00CB1B33 /* TaskTableViewController.swift */,
+				867443A91CB3076B00CB1B33 /* TaskViewController.swift */,
 				867443AB1CB3076B00CB1B33 /* Main.storyboard */,
 				867443AE1CB3076B00CB1B33 /* Assets.xcassets */,
 				867443B01CB3076B00CB1B33 /* LaunchScreen.storyboard */,
@@ -144,8 +144,8 @@
 			files = (
 				867443A61CB3076B00CB1B33 /* In_The_Last_24.xcdatamodeld in Sources */,
 				867443A31CB3076B00CB1B33 /* AppDelegate.swift in Sources */,
-				867443A81CB3076B00CB1B33 /* MasterViewController.swift in Sources */,
-				867443AA1CB3076B00CB1B33 /* DetailViewController.swift in Sources */,
+				867443A81CB3076B00CB1B33 /* TaskTableViewController.swift in Sources */,
+				867443AA1CB3076B00CB1B33 /* TaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +299,7 @@
 				867443B81CB3076B00CB1B33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

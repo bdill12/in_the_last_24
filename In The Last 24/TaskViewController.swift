@@ -1,5 +1,5 @@
 //
-//  DetailViewController.swift
+//  TaskViewController.swift
 //  In The Last 24
 //
 //  Created by Brenton Dill on 4/4/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class TaskViewController: UIViewController {
 
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
